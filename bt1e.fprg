@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-25 10:17:08 AM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjs2UzQ3UzVEMTM3U0VYRzE7MjAyMC0wMy0xODsxMDo1NDo1MCBBTTszNjAw"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjs2UzQ3UzVEMTM3U0VYRzE7MjAyMC0wMy0yNTsxMDoxNzowOCBBTTs1OzM3MTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <declare name="uoc, bienchay" type="Real" array="False" size=""/>
+            <if expression="n==1">
+                <then>
+                    <output expression="&quot;La k so nto&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n&lt;4">
+                        <then>
+                            <output expression="&quot;La so nto&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <declare name="i" type="Integer" array="False" size=""/>
+                            <assign variable="i" expression="2"/>
+                            <for variable="bienchay" start="i" end="n-1" direction="inc" step="1">
+                                <if expression="n%i==0">
+                                    <then>
+                                        <output expression="&quot;la k so ngto&quot;" newline="True"/>
+                                        <breakpoint/>
+                                    </then>
+                                    <else>
+                                        <if expression="n-1==i">
+                                            <then>
+                                                <output expression="&quot;n la so ngto&quot;" newline="True"/>
+                                            </then>
+                                            <else/>
+                                        </if>
+                                    </else>
+                                </if>
+                            </for>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

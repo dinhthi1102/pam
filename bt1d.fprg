@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-18 10:26:51 AM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjs2UzQ3UzVEMTM3U0VYRzE7MjAyMC0wMy0xODsxMDowMzoyNCBBTTszNTk1"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjs2UzQ3UzVEMTM3U0VYRzE7MjAyMC0wMy0xODsxMDoyNjo1MSBBTTsxOzM3MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="height" type="Integer" array="False" size=""/>
+            <output expression="&quot;please enter the height of a triangle&quot;" newline="True"/>
+            <input variable="height"/>
+            <declare name="length" type="Integer" array="False" size=""/>
+            <output expression="&quot;please enter the length of a triangle&quot;" newline="True"/>
+            <input variable="length"/>
+            <assign variable="area" expression="(height*length)/2"/>
+            <output expression="&quot;the area is&quot;&amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,1 @@
+ds=('nhap chuoi:').split(,)
